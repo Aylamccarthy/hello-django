@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-@l%zg8^119zv03^_$d3x#y!8*8+p1x$03$clqhc+42twub70=^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-aylamccarthy-hello-djang-ng97p8dppf.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['hello-django-todo-app-ayla.herokuapp.com']
 
 
 # Application definition
@@ -89,7 +89,6 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse('postgres://DATABASE_URL')
 }
-
 
 
 # Password validation
